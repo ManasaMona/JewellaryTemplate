@@ -1,0 +1,139 @@
+
+body {
+font-family: 'Arial', sans-serif;
+background-color:#e5e500;
+background-size: cover;
+	}
+#page-wrap { 
+width: 920px; 
+margin: 4px auto; 
+padding: 0px; 
+background: #FFFFCC; 
+-moz-box-shadow: 0 0 20px black; 
+-webkit-box-shadow: 0 0 20px black; 
+box-shadow: 0 0 20px black; }
+		
+#topnavigation{
+display:block;
+	width:1600px;
+	height: 28px;
+	max-width:100%;
+	background-color:#645330;
+	top:48px;
+	margin:0 auto;
+}	
+#topnavigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#topnavigation  li {
+    float: left;
+}
+
+#topnavigation a {
+    display: block;
+    width: 222px;
+	 background-color: #645330;
+ 
+}
+#secondnavigation{
+display:block;
+	width:1600px;
+	max-width:100%;
+	top:48px;
+	margin:0 auto;
+}
+#secondnavigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#secondnavigation li {
+    float: right;
+}
+#logo{
+display:block;
+	width:1600px;
+	max-width:100%;
+	top:48px;
+	margin:0 auto;
+float: left;
+}
+
+#secondnavigation a {
+    display: block;
+    width: 119px;
+ 
+}
+#banner img{
+width:906px;
+height:397px;
+
+}
+.nav{
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+section {
+  float: left;
+  width: 16%;
+}
+div.item {
+    border-bottom: 1px #7C030F solid;
+    margin: 0 0 2em 0;
+}
+
+div.item p { margin: 1em 0.2em 0.3em 0; line-height: 1.5; text-align: justify; }
+
+
+ .box {
+  display: inline-block;
+  width: 186px;
+  height: 100px;
+  margin: 1em;
+}
+#footer-widgets {
+background:#990033;
+padding:1.625em 0;
+text-align:center;
+color:#bbb;
+}
+.widget{
+float: left;
+ width: 25%;
+ display: inline-block;
+}
+
+address {
+font-size : 16px;
+text-align : center;
+color: #efefef;
+padding: 1% 0;
+text-shadow: 1px 1px 0px #202020
+}
+.simple {
+  display:inline-block;
+  margin: 20px auto;
+  width: 446px;
+}
+#newarrivals h1{
+text-align: center;
+}
+#topslider  h1{
+text-align: center;
+}
+
+

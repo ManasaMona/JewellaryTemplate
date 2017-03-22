@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="style.css"/>
+
+<script>
+function changebangle(){
+	var images = document.getElementsByClassName("someClass");
+for(i=0;i<images.length;i++){
+	images[i].setAttribute("src", "bangle.jpg");
+}	
+}
+function changering(){
+	var images = document.getElementsByClassName("someClass");
+for(i=0;i<images.length;i++){
+	images[i].setAttribute("src", "ring.jpg");
+}	
+}
+function changewatch(){
+	var images = document.getElementsByClassName("someClass");
+for(i=0;i<images.length;i++){
+	images[i].setAttribute("src", "watch.jpg");
+}	
+}
+</script>
+
+</head>
+<body>
+<div id="page-wrap">
+<header>
+<div id="topnavigation">
+	<ul>
+  <li><a href="#home">Our Products</a></li>
+  <li><a href="#news">Know more about us</a></li>
+</ul>
+</div>
+
+<div id="secondnavigation">
+  <!--<div id="logo">-->
+				<img src="logo.png" alt=""/>
+			<!--/div> end of #logo -->
+	<ul>
+	
+ <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+</div>
+
+</header>
+<div id="banner">
+<img src="banner.png" alt="" >
+</div>
+<div id="topslider">
+
+<h1>Featured Jewllery</h1>
+
+<ul class="nav">
+  <li><a href="#" onclick='changebangle()'>bangle <br></a></li>
+  <li><a href="#" onclick='changering()'>ring</a></li>
+  <li><a href="#" onclick='changewatch()'>watches</a></li>
+  
+</ul>
+
+<div class="box"><img src="image.png" class='someClass' alt="" > <br> Bangles</div>
+<div class="box"><img src="image.png" class='someClass' alt="" > <br> Bangles</div>
+<div class="box"><img src="image.png" class='someClass'  alt="" > <br> Bangles</div>
+<div class="box"><img src="image.png" class='someClass' alt="" > <br> Bangles</div>
+
+
+
+
+</div>
+<div id="data">
+<h1>Title</h1>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+<div class="item">                       
+	<div class="simple"><img src="image.png" height="125" width="166" class="thumbnail" /><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p></div>
+	<div class="simple"><img src="image.png" height="125" width="166" class="thumbnail" /><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p></div>
+	<div class="simple"><img src="image.png" height="125" width="166" class="thumbnail" /><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p></div>
+	<div class="simple"><img src="image.png" height="125" width="166" class="thumbnail" /><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p></div>
+</div>
+
+<div id="newarrivals">
+<h1> New Arrivals</h1>
+
+<div class="box"><img src="image.png" alt="" > <br> Bangles</div>
+<div class="box"><img src="image.png" alt="" > <br> Bangles</div>
+<div class="box"><img src="image.png" alt="" > <br> Bangles</div>
+<div class="box"><img src="image.png" alt="" > <br> Bangles</div>
+</div>
+ <footer id="footer-widgets" >
+<div class="widget">Archives</div>		
+<div class="widget">Pages</div>		
+<div class="widget">Mete</div>			
+<div class="widget">Mete</div>			
+
+ <address>&copy; Copyright 2015 All Rights Reserved </address>
+ </footer>
+ </div>
+</body>
+
+
+
+
+
+</html>
